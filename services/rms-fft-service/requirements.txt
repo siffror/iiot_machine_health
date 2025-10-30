@@ -1,1 +1,6 @@
+azure-eventhub==5.11.5
+influxdb-client==1.48.0
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
 
