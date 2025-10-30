@@ -1,1 +1,18 @@
+# Use a small official Python base image (Debian Slim)
+FROM python:3.10-slim
+
+## Set the working directory inside the container
+WORKDIR /app
+
+## Copy dependency manifest first to leverage Docker layer caching
+COPY requirements.txt .
+
+## Install Python dependencies without pip cache to keep the image small
+RUN pip install --no-cache-dir -r requirements.txt
+
+## Copy the replayer application code
+COPY replayer_eventhub_from_parquet.py .
+
+## Default command: start the replayer
+CMD ["python", "replayer_eventhub_from_parquet.py"]
 
