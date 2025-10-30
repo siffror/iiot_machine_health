@@ -1,1 +1,14 @@
+# Bas
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.7.2   
+joblib==1.4.2
+
+# Azure SDK
+azure-identity==1.17.1
+azure-storage-blob==12.22.0
+azure-eventhub==5.12.0
+
+# InfluxDB
+influxdb-client==1.42.0
 
