@@ -1,24 +1,24 @@
-# ======= Dockerfile för iiotpoc-scorer =======
-# Använd stabil Python-bild
+# ======= Dockerfile for iiotpoc-scorer =======
+# Use a stable Python image
 FROM python:3.10-slim
 
-# Ställ in arbetsmapp
+# Set working directory
 WORKDIR /app
 
-# Kopiera kravfil
+# Copy requirements file
 COPY requirements.txt .
 
-# Installera systemberoenden + Python-paket
+# Install system dependencies + Python packages
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential gcc \
     && pip install --no-cache-dir -r requirements.txt \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Kopiera koden till containern
+# Copy the code into the container
 COPY anomaly_scorer.py .
 
-# Omedelbar loggutskrift (viktigt i Azure)
+# Immediate log output (important on Azure)
 ENV PYTHONUNBUFFERED=1
 
-# Startkommando
+# Start command
 CMD ["python", "anomaly_scorer.py"]
