@@ -1,1 +1,6 @@
+pandas
+azure-eventhub
+azure-identity
+azure-storage-blob
+pyarrow
 
