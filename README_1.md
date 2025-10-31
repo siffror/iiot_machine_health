@@ -201,7 +201,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## 📧 Contact
 
-**Author:** Amghar  
+**Author:** Zakaria  
 **GitHub:** [@siffror](https://github.com/siffror)  
 **Project Link:** [https://github.com/siffror/iiot_machine_health](https://github.com/siffror/iiot_machine_health)
 
