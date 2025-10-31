@@ -80,13 +80,13 @@ iiot_machine_health/
 ---
 
 ## 🧠 Core Microservices (Azure Container Apps)
-
+````
 | App | Description |
 |-----|--------------|
 | **iiotpoc-replayer** | Reads Parquet data and streams events to Event Hubs |
 | **iiotpoc-scorer-final** | Consumes events, loads the Isolation Forest model, and writes anomaly scores to InfluxDB |
 | **Grafana Cloud Dashboard** | Displays real-time machine health and anomaly trends |
-
+````
 ---
 
 ## 🛠️ Prerequisites
