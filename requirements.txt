@@ -1,1 +1,40 @@
+# Core Data Science Libraries
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.7.2
+joblib==1.4.2
+scipy>=1.11.0
 
+# Azure SDK
+azure-identity==1.17.1
+azure-storage-blob==12.22.0
+azure-eventhub==5.12.0
+
+# InfluxDB Client
+influxdb-client==1.42.0
+
+# Data Processing
+pyarrow>=14.0.0
+openpyxl>=3.1.0
+
+# Jupyter & Visualization
+jupyter>=1.0.0
+jupyterlab>=4.0.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+black>=23.0.0
+flake8>=6.1.0
+mypy>=1.7.0
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
