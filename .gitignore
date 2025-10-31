@@ -1,1 +1,122 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+.jupyter/
+
+# Azure & Cloud
+.azure/
+*.publishsettings
+azure-pipelines.yml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files (local development)
+*.csv
+*.parquet
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+!data/sample/
+
+# Model files (large files)
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+models/*.joblib
+!models/README.md
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.hypothesis/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*
+
+# InfluxDB
+influxdb.conf
+
+# Secrets & Credentials
+secrets.yaml
+credentials.json
+*.pem
+*.key
+*.crt
+service-account.json
+
+# Build artifacts
+*.exe
+*.dll
+*.dylib
+
+# Documentation builds
+docs/_build/
+site/
