@@ -49,7 +49,7 @@ It leverages Azure Container Apps for scalable compute, Event Hubs for streaming
 ## 📁 Project Structure
 
 ```
-
+````
 iiot_machine_health/
 ├── replayer/              # Streams Parquet → Event Hubs
 ├── scorer/                # Loads model → writes anomaly scores → InfluxDB
@@ -58,7 +58,7 @@ iiot_machine_health/
 ├── infra/                 # Optional: Azure Container Apps YAML definitions
 ├── data/                  # Example or local datasets
 └── README.md
-
+````
 ```
 
 ---
