@@ -199,11 +199,8 @@ Licensed under the MIT License – see the LICENSE file for details.
 
 ---
 
-> *“Industrial data without insight is just noise — Machine Health 3.0 turns it into action.”*
+> *“Industrial data without insight is just noise — Machine Health turns it into action.”*
 
 ```
 
----
 
-Would you like me to also make a **short Swedish summary paragraph** (for your school report or LIA appendix) that explains this pipeline in simpler academic terms?
-```
