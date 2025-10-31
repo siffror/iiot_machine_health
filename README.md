@@ -91,7 +91,7 @@ iiot_machine_health/
 - ✅ Azure CLI + Docker installed  
 - ✅ InfluxDB Cloud account & token  
 - ✅ Grafana Cloud account (for visualization)  
-- ✅ Python 3.10 + requirements installed locally
+- ✅ Python 3.10+ with pip
 
 ---
 
@@ -183,19 +183,21 @@ from(bucket: "iiot_rms")
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to:
+Contributions are welcome! This is a free and open project. Feel free to:
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 📤 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔀 Open a Pull Request
 
 ---
 
 ## 📝 License
 
-This project is licensed under the MIT License – see the LICENSE file for details.
+**This project is free and available for anyone to use.**
+
+Feel free to use, modify, and distribute this project for personal, educational, or commercial purposes.
 
 ---
 
@@ -219,5 +221,7 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 <div align="center">
 
 ### 💡 *"Industrial data without insight is just noise — Machine Health turns it into action."*
+
+**⭐ If you find this project useful, please consider giving it a star!**
 
 </div>
